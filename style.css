@@ -1,0 +1,62 @@
+html {
+    background-color: cornflowerblue;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    height: 150px;
+}
+
+.kanji {
+    display: inline-block;
+    background-image: url("manga.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 250px;
+}
+
+.frame {
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.center {
+    margin: auto;
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+  
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}
+  
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+}
+  
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
